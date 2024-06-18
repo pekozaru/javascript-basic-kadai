@@ -1,4 +1,9 @@
-const weight = 68;
-const height = 1.7;
+let weight;
+let height;
+let bmi;
 
-console.log(weight / (height * height));
+weight = 68;
+height = 1.7;
+bmi = weight / (height * height)
+
+console.log(bmi);
